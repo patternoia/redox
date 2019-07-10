@@ -186,9 +186,9 @@ if(NOT CMAKE_INSTALL_PREFIX)
 endif(NOT CMAKE_INSTALL_PREFIX)
 
 # Check if it is a 64 bit system
-if(CMAKE_SIZEOF_VOID_P EQUAL 8 AND NOT LIB_SUFFIX)
-    set(LIB_SUFFIX "64")
-endif()
+# if(CMAKE_SIZEOF_VOID_P EQUAL 8 AND NOT LIB_SUFFIX)
+#    set(LIB_SUFFIX "64")
+# endif()
 
 if (lib)
   # Install the dynamic library to /usr/lib[64]
